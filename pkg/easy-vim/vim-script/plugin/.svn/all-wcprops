@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/101/trunk/vim-script/plugin
+END
+supertab.vim
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/86/trunk/vim-script/plugin/supertab.vim
+END
+cecutil.vim
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/86/trunk/vim-script/plugin/cecutil.vim
+END
+winmanager.vim
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/86/trunk/vim-script/plugin/winmanager.vim
+END
+common.vim
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/86/trunk/vim-script/plugin/common.vim
+END
+vcscommand.vim
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/86/trunk/vim-script/plugin/vcscommand.vim
+END
+mark.vim
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/86/trunk/vim-script/plugin/mark.vim
+END
+ccvext.vim
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/101/trunk/vim-script/plugin/ccvext.vim
+END
+tagexplorer.vim
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/86/trunk/vim-script/plugin/tagexplorer.vim
+END
+bufexplorer.vim
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/86/trunk/vim-script/plugin/bufexplorer.vim
+END
+grep.vim
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/90/trunk/vim-script/plugin/grep.vim
+END
+vcsgit.vim
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/86/trunk/vim-script/plugin/vcsgit.vim
+END
+engspchk.vim
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/86/trunk/vim-script/plugin/engspchk.vim
+END
+oscan.vim
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/86/trunk/vim-script/plugin/oscan.vim
+END
+mru.vim
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/86/trunk/vim-script/plugin/mru.vim
+END
+EasyGrepFileAssociations
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/86/trunk/vim-script/plugin/EasyGrepFileAssociations
+END
+vcscvs.vim
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/86/trunk/vim-script/plugin/vcscvs.vim
+END
+taglist.vim
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/86/trunk/vim-script/plugin/taglist.vim
+END
+DirDiff.vim
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/95/trunk/vim-script/plugin/DirDiff.vim
+END
+vcsbzr.vim
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/86/trunk/vim-script/plugin/vcsbzr.vim
+END
+vcshg.vim
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/86/trunk/vim-script/plugin/vcshg.vim
+END
+wintagexplorer.vim
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/86/trunk/vim-script/plugin/wintagexplorer.vim
+END
+winfileexplorer.vim
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/86/trunk/vim-script/plugin/winfileexplorer.vim
+END
+vcssvk.vim
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/86/trunk/vim-script/plugin/vcssvk.vim
+END
+EasyGrep.vim
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/86/trunk/vim-script/plugin/EasyGrep.vim
+END
+cscope_macros.vim
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/86/trunk/vim-script/plugin/cscope_macros.vim
+END
+v_stup.vim
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/99/trunk/vim-script/plugin/v_stup.vim
+END
+vcssvn.vim
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/86/trunk/vim-script/plugin/vcssvn.vim
+END
+DoxygenToolkit.vim
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/94/trunk/vim-script/plugin/DoxygenToolkit.vim
+END

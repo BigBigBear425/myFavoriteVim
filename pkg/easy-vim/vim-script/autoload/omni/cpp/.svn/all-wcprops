@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/86/trunk/vim-script/autoload/omni/cpp
+END
+includes.vim
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/86/trunk/vim-script/autoload/omni/cpp/includes.vim
+END
+complete.vim
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/86/trunk/vim-script/autoload/omni/cpp/complete.vim
+END
+tokenizer.vim
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/86/trunk/vim-script/autoload/omni/cpp/tokenizer.vim
+END
+namespaces.vim
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/86/trunk/vim-script/autoload/omni/cpp/namespaces.vim
+END
+maycomplete.vim
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/86/trunk/vim-script/autoload/omni/cpp/maycomplete.vim
+END
+utils.vim
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/86/trunk/vim-script/autoload/omni/cpp/utils.vim
+END
+settings.vim
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/86/trunk/vim-script/autoload/omni/cpp/settings.vim
+END
+items.vim
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/86/trunk/vim-script/autoload/omni/cpp/items.vim
+END

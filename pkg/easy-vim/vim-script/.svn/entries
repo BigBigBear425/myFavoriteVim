@@ -1,0 +1,64 @@
+10
+
+dir
+101
+https://easy-vim.googlecode.com/svn/trunk/vim-script
+https://easy-vim.googlecode.com/svn
+
+
+
+2010-01-30T13:45:21.436834Z
+101
+rlxtime.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2f5823b4-aba7-11dd-a714-1752b6e4c161
+
+after
+dir
+
+colors
+dir
+
+indent
+dir
+
+ftdetect
+dir
+
+doc
+dir
+
+syntax
+dir
+
+keymap
+dir
+
+autoload
+dir
+
+ftplugin
+dir
+
+CVIMSYN
+dir
+
+compiler
+dir
+
+plugin
+dir
+
