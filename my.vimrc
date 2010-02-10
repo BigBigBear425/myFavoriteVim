@@ -5,11 +5,11 @@ set cindent
 set autoindent
 set incsearch
 set smartindent
+"colorscheme ansi_blows
 "colorscheme xterm16
 "colorscheme 256-jungle
 "colorscheme putty
 "colorscheme af
-"colorscheme ansi_blows
 "colorscheme BlackSea
 "colorscheme candycode
 "colorscheme colorscheme_template
