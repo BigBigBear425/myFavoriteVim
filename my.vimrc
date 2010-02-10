@@ -17,7 +17,7 @@ set autoindent
 set incsearch
 set hlsearch
 set smartindent
-
+set ruler
 set nobackup
 set nowritebackup
 set history=100
@@ -42,6 +42,14 @@ set expandtab
 "colorscheme dante
 "colorscheme darkzen
 
+"==================================
+" key mapping
+"==================================
+map <F9> :!find ./ -name '*.cpp' -or -name '*.[chS]'>./cscope.files && cscope -bkq -i cscope.files && rm -f cscope.files<CR>
+"if !exists(':命令名')
+"command! -nargs=0 命令名 :!find ./ -name '*.cpp' -or -name '*.[chS]'>./cscope.files && cscope -bkq -i cscope.files && rm -f cscope.files <CR>
+
+
 "this script use to excute make in vim and open quickfix window
 nmap B :call Do_make()<cr><cr><cr>
 nmap C :cclose<cr>
@@ -59,10 +67,61 @@ function Do_make()
    execute "copen"
 endfunction
 
-let g:miniBufExplMapWindowNavVim = 1
-let g:miniBufExplMapWindowNavArrows = 1
-let g:miniBufExplMapCTabSwitchBufs = 1
-let g:miniBufExplModSelTarget = 1
+"==================================
+" BufExplorer
+"==================================
+let g:bufExplorerDefaultHelp=0 " Do not show default help.
+let g:bufExplorerDetailedHelp=0 " Do not show detailed help.
+let g:bufExplorerShowRelativePath=0 " Show absolute paths.
+let g:bufExplorerShowDirectories=1 " Show directories.
+let g:bufExplorerSortBy='mru' " Sort by most recently used.
+let g:bufExplorerSplitRight=0 " Split left.
+let g:bufExplorerSplitVertical=1 " Split vertically.
+let g:bufExplorerSplitVertSize = 30 " Split width
+let g:bufExplorerUseCurrentWindow=1 " Open in new window.
+
+"===========================
+" MiniBuf setting
+"===========================
+"let g:miniBufExplTabWrap = 1 " make tabs show complete (no broken on two lines)
+"let g:miniBufExplMapWindowNavVim = 1
+"let g:miniBufExplMapWindowNavArrows = 1
+"let g:miniBufExplMapCTabSwitchBufs = 1
+"let g:miniBufExplModSelTarget = 1
+
+"===========================
+" winManager setting
+"===========================
+let g:winManagerWindowLayout = 'BufExplorer,FileExplorer|TagList'
+"let g:winManagerWindowLayout = 'FileExplorer,TagsExplorer|BufExplorer' " What windows should it
+let g:winManagerWidth = 30
+let g:defaultExplorer = 0
+nmap <C-W><C-F> :FirstExplorerWindow<CR>
+nmap <C-W><C-B> :BottomExplorerWindow<CR>
+"nmap <silent> <leader>wm :WMToggle<CR>
+nnoremap <silent> <F8> :WMToggle<CR>
+
+"==========================
+" Tlist setting
+"==========================
+let Tlist_Sort_Type = "name" " order by
+let Tlist_Use_Right_Window = 1 " split to the right side of the screen
+let Tlist_Compart_Format = 1 " show small meny
+let Tlist_Exist_OnlyWindow = 1 " if you are the last, kill yourself
+let Tlist_File_Fold_Auto_Close = 1 " Do not close tags for other files
+let Tlist_Enable_Fold_Column = 0 " Do not show folding tree
+let Tlist_WinHeight = 40
+"nnoremap <silent> <F8> :TlistToggle<CR>
+
+"==========================
+" auto complete the words
+"==========================
+inoremap <F4> <C-x><C-o>
+
+"==========================
+" close the tab window
+"==========================
+map <F3> :close <CR>
 
 "let g:winManagerWindowLayout = 'NERD_tree,taglist|BufExplorer'
 "let g:winManagerWindowLayout = 'FileExplorer|Taglist'
@@ -112,6 +171,9 @@ let OmniCpp_DefaultNamespaces = ["std"]
 "let g:SuperTabRetainCompletionType = 2
 "let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
 
+"==========================
+" DoxygenToolkit setting
+"==========================
 "let g:DoxygenToolkit_briefTag_pre="@Synopsis  "
 "let g:DoxygenToolkit_paramTag_pre="@Param "
 "let g:DoxygenToolkit_returnTag="@Returns   "
@@ -130,9 +192,6 @@ nmap <F10>  :TrinityToggleTagList<CR>
 " Open and close the NERD_tree.vim separately
 nmap <F11>  :TrinityToggleNERDTree<CR>
 
-map <F9> :!find ./ -name '*.cpp' -or -name '*.[chS]'>./cscope.files && cscope -bkq -i cscope.files && rm -f cscope.files<CR>
-"if !exists(':命令名')
-"command! -nargs=0 命令名 :!find ./ -name '*.cpp' -or -name '*.[chS]'>./cscope.files && cscope -bkq -i cscope.files && rm -f cscope.files <CR>
 
 "let g:vimgdb_debug_file = ""
 "run macros/gdb_mappings.vim
