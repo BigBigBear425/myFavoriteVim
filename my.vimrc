@@ -1,14 +1,39 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Vim script 
+"Create by YaoXiong
+"Create time 2010-02-10 14:58:37
+"
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Copy right (c) YaoXiong
+"Email: iori.hsiun@gmail.com
+"Authorization:any can use modify, use, reissue it.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set ts=4
 set sw=4
+set softtabstop=4
 set textwidth=80
 set cindent
 set autoindent
 set incsearch
+set hlsearch
 set smartindent
+
+set nobackup
+set nowritebackup
+set history=100
+set showcmd
+
+filetype plugin indent on
+set fileformat=unix
+set expandtab
+
 "colorscheme ansi_blows
 "colorscheme xterm16
 "colorscheme 256-jungle
 "colorscheme putty
+"colorscheme lucius
+"colorscheme oceandeep
+"colorscheme peaksea
 "colorscheme af
 "colorscheme BlackSea
 "colorscheme candycode
