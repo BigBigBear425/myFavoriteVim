@@ -157,6 +157,9 @@ map <F3> :close <CR>
 "	return 1
 "endfunction
 
+"==========================
+" OmniCpp setting
+"==========================
 let OmniCpp_GlobalScopeSearch = 1  " 0 or 1
 let OmniCpp_NamespaceSearch = 1   " 0 ,  1 or 2
 let OmniCpp_DisplayMode = 1
@@ -168,6 +171,9 @@ let OmniCpp_MayCompleteArrow = 1
 let OmniCpp_MayCompleteScope = 1
 let OmniCpp_DefaultNamespaces = ["std"]
 
+"==========================
+" SuperTab setting
+"==========================
 "let g:SuperTabRetainCompletionType = 2
 "let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
 
@@ -182,16 +188,6 @@ let OmniCpp_DefaultNamespaces = ["std"]
 "let g:DoxygenToolkit_authorName="xiongyao"
 "let g:DoxygenToolkit_licenseTag="My own license"   <-- !!! Does not end with "\<enter>"
 "let g:doxygenToolkit_briefTag_funcName="yes"
-
-" Open and close all the three plugins on the same time
-nmap <F8>   :TrinityToggleAll<CR>
-" Open and close the srcexpl.vim separately
-"nmap <F9>   :TrinityToggleSourceExplorer<CR>
-" Open and close the taglist.vim separately
-nmap <F10>  :TrinityToggleTagList<CR>
-" Open and close the NERD_tree.vim separately
-nmap <F11>  :TrinityToggleNERDTree<CR>
-
 
 "let g:vimgdb_debug_file = ""
 "run macros/gdb_mappings.vim
