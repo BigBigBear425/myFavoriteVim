@@ -45,9 +45,12 @@ set expandtab
 "==================================
 " key mapping
 "==================================
+" gen cscope.files
 map <F9> :!find ./ -name '*.cpp' -or -name '*.[chS]'>./cscope.files && cscope -bkq -i cscope.files && rm -f cscope.files<CR>
-"if !exists(':命令名')
-"command! -nargs=0 命令名 :!find ./ -name '*.cpp' -or -name '*.[chS]'>./cscope.files && cscope -bkq -i cscope.files && rm -f cscope.files <CR>
+" close window
+map <F3> :close <CR>
+" auto complete the words
+inoremap <F4> <C-x><C-o>
 
 
 "this script use to excute make in vim and open quickfix window
@@ -93,7 +96,7 @@ let g:bufExplorerUseCurrentWindow=1 " Open in new window.
 " winManager setting
 "===========================
 let g:winManagerWindowLayout = 'BufExplorer,FileExplorer|TagList'
-"let g:winManagerWindowLayout = 'FileExplorer,TagsExplorer|BufExplorer' " What windows should it
+"let g:winManagerWindowLayout = 'BufExplorer,NERDTree|TagList'
 let g:winManagerWidth = 30
 let g:defaultExplorer = 0
 nmap <C-W><C-F> :FirstExplorerWindow<CR>
@@ -112,50 +115,6 @@ let Tlist_File_Fold_Auto_Close = 1 " Do not close tags for other files
 let Tlist_Enable_Fold_Column = 0 " Do not show folding tree
 let Tlist_WinHeight = 40
 "nnoremap <silent> <F8> :TlistToggle<CR>
-
-"==========================
-" auto complete the words
-"==========================
-inoremap <F4> <C-x><C-o>
-
-"==========================
-" close the tab window
-"==========================
-map <F3> :close <CR>
-
-"let g:winManagerWindowLayout = 'NERD_tree,taglist|BufExplorer'
-"let g:winManagerWindowLayout = 'FileExplorer|Taglist'
-"let g:winManagerWindowLayout = 'FileExplorer,TagsExplorer|BufExplorer'
-"nmap wm :WMToggle<cr>
-"let g:winManagerWindowLayout = "FileExplorer"
-"let g:winManagerWindowLayout = 'FileExplorer,TagsExplorer|BufExplorer'
-"let g:NERDTree_title = "[NERDTree]"
-"function! NERDTree_Start()
-"call g:NERDTree()
-"endfunction
-"
-"function! NERDTree_IsValid()
-"return 1
-"endfunction
-"
-"let g:winManagerWindowLayout='NERDTree|TagList'
-"let g:winManagerWindowLayout = "NERDTree,TagList|TagList"
-"let g:winManagerWindowLayout = "NERDTree,taglist|taglist"
-"let g:NERDTree_title = "[NERDTree]"
-"function! NERDTree_Start()
-"	NERDTree
-"endfunction
-"function! NERDTree_IsValid()
-"	return 1
-"endfunction
-"
-"let g:taglist_title = "[Tlist]"
-"function! taglist_Start()
-"	call Tlist
-"endfunction
-"function! taglist_IsValid()
-"	return 1
-"endfunction
 
 "==========================
 " OmniCpp setting
